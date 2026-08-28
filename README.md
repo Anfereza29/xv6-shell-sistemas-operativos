@@ -479,8 +479,6 @@ continúa disponible.
 - No se expanden comodines como `*` o `?`.
 - No se soporta la ejecución en segundo plano con `&`.
 - No se implementan control de trabajos ni manejo avanzado de señales.
-- No se implementan comandos internos como `cd`, `history`, `jobs`, `fg`, `bg`
-  o `kill`.
 - No se soporta la redirección de salida acumulativa con `>>`.
 - La entrada está limitada a 128 caracteres.
 - Cada comando puede almacenar hasta 15 elementos en `argv`, incluyendo el
@@ -498,6 +496,3 @@ afectan los requisitos funcionales obligatorios.
 Durante el desarrollo del proyecto se utilizaron herramientas de inteligencia
 artificial generativa como apoyo para comprensión de conceptos, revisión de
 código y generación de ejemplos.
-
-Los integrantes asumen plena responsabilidad académica sobre el contenido
-entregado y están en capacidad de explicar y justificar la implementación.
